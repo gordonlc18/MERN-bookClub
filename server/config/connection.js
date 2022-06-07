@@ -29,11 +29,11 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb+srv://mern:Gjs2lCeKh2ThKkAd@googlebooks.wklpdgc.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
-  useFindAndModify: true,
+  useFindAndModify: false,
 });
 
 module.exports = mongoose.connection;

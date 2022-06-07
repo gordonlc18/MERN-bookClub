@@ -4,32 +4,32 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+  "start": "node server/server.js",
+  "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+  "install": "cd server && npm i && cd ../client && npm i",
+  "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+  "concurrently": "^5.3.0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gordonlc18/MERN-bookClub.git"
+  "type": "git",
+  "url": "git+https://github.com/gordonlc18/MERN-bookClub.git"
   },
   "bugs": {
-    "url": "https://github.com/gordonlc18/MERN-bookClub/issues"
+  "url": "https://github.com/gordonlc18/MERN-bookClub/issues"
   },
   "homepage": "https://github.com/gordonlc18/MERN-bookClub#readme",
   "dependencies": {
-    "apollo-server-express": "^3.8.1",
-    "faker": "^6.6.6",
-    "graphql": "^16.5.0",
-    "jsonwebtoken": "^8.5.1",
-    "jwt-decode": "^3.1.2",
-    "nodemon": "^2.0.16",
-    "react-router-dom": "^6.3.0"
+  "apollo-server-express": "^3.8.1",
+  "faker": "^6.6.6",
+  "graphql": "^16.5.0",
+  "jsonwebtoken": "^8.5.1",
+  "jwt-decode": "^3.1.2",
+  "nodemon": "^2.0.16",
+  "react-router-dom": "^6.3.0"
   }
-}
+  }

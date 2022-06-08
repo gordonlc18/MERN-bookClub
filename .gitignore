@@ -10,3 +10,4 @@ node_modules
 node_modules
 .vscode
 .DS_Storenode_modules
+npm-debug.log
